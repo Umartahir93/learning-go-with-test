@@ -30,6 +30,14 @@ func greetingPrefix(lang string) (prefix string) {
 	return
 }
 
+func Sum(numbers []int) int {
+	sum := 0
+	for _, number := range numbers {
+		sum += number
+	}
+	return sum
+}
+
 func main() {
 	fmt.Println(Hello("Umar", ""))
 }
