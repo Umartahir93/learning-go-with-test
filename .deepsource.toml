@@ -6,6 +6,8 @@ test_patterns = [
 [[analyzers]]
 name = "go"
 enabled = true
+name = "test-coverage"
+enabled = true
 
 [analyzers.meta]
 dependencies_vendored = false
