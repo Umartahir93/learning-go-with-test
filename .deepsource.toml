@@ -10,5 +10,7 @@ enabled = true
 name = "test-coverage"
 enabled = true
 
-  [analyzers.meta]
-  import_root = "github.com/umartahir93/learning-go-with-test"
+[analyzers.meta]
+dependencies_vendored = false
+cgo_enabled = false
+import_root = "github.com/umartahir93/learning-go-with-test"
