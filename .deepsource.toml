@@ -3,11 +3,11 @@ version = 1
 test_patterns = ["**/*_test.go"]
 
 [[analyzers]]
-name = "test-coverage"
+name = "go"
 enabled = true
 
 [[analyzers]]
-name = "go"
+name = "test-coverage"
 enabled = true
 
   [analyzers.meta]
