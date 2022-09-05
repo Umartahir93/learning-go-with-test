@@ -1,6 +1,5 @@
 version = 1
 test_patterns = [
-    "tests/*_test.go",
     "**/*_test.go"
 ]
 
@@ -11,3 +10,4 @@ enabled = true
 [analyzers.meta]
 dependencies_vendored = false
 cgo_enabled = false
+import_root = "github.com/umartahir93/learning-go-with-test"
